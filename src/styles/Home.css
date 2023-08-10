@@ -1,0 +1,10 @@
+.Home {
+  background: #f2efef;
+}
+
+@media screen and (max-width: 768px) {
+  .Home {
+    background-color: white;
+    border: 1px solid #d9d9d9;
+  }
+}

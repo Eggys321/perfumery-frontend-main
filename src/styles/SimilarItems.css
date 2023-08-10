@@ -1,0 +1,18 @@
+.male-section.similar {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.male-section.similar .product.new {
+  width: 349px;
+}
+
+.similar-btn {
+  border: none;
+  padding: 10px 61px;
+  width: 70%;
+  border-radius: 20px;
+  background: var(--primary, #db9200);
+  color: white;
+}

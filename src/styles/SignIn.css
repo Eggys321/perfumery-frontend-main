@@ -1,0 +1,58 @@
+.sign-In {
+  background-color: #f2efef;
+  /* height: 1024px; */
+  width: 813px;
+  margin: 0 auto;
+  padding: 3rem 5rem 8rem 5rem;
+}
+
+.sign-in-header {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.sign-in-sub-heading {
+  font-size: 18px;
+}
+
+.sign-in-btn {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 15px;
+  background: #db9200;
+  color: white;
+  border: none;
+}
+
+form input {
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  padding: 11px 15px;
+  background-color: #f2efef;
+}
+
+a {
+  color: #000;
+}
+
+input {
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .sign-In {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sign-in-header {
+    font-size: 25px;
+  }
+
+  .sign-in-sub-heading {
+    font-size: 16px;
+  }
+}

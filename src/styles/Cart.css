@@ -1,0 +1,321 @@
+.basket {
+  /* background-color: #f2efef; */
+}
+
+.welcome-heading {
+  color: #000;
+  font-size: 40px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  letter-spacing: 4.4px;
+}
+
+.welcome-sub-heading {
+  color: #747474;
+  font-size: 20px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  letter-spacing: 2.2px;
+}
+
+.empty-cart {
+  background-color: #fff;
+  padding: 3rem 1rem;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #db9200;
+  font-family: Poppins;
+}
+
+.emptycartbtn {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #db9200;
+}
+
+.cart {
+  width: 65%;
+}
+
+.cart-item {
+  /* border-bottom: 1px solid #db9200; */
+}
+
+.item-increase,
+.item-decrease,
+.remove-btn {
+  cursor: pointer;
+}
+
+.cart-items {
+  border-radius: 8px;
+  border: 2px solid #db9200;
+  /* border-bottom: 1px solid #db9200; */
+}
+
+.cart-items-heading {
+  color: var(--secondary, #080a0c);
+  font-size: 20px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  letter-spacing: 2.2px;
+  border-bottom: 2px solid #db9200;
+}
+
+.cart-img {
+  width: 57.226px;
+  height: 98px;
+  flex-shrink: 0;
+}
+
+.cart-img-title {
+  color: #000;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 500;
+  letter-spacing: 1.32px;
+}
+
+.cart-math {
+  border: 1px solid #747474;
+  background: #fff;
+  padding: 2px 5px;
+  width: 70px;
+  font-family: Poppins;
+  font-weight: 500;
+  color: #747474;
+}
+
+.cart-math-number {
+  font-size: 12px;
+  letter-spacing: 1.32px;
+}
+
+.remove-btn {
+  color: #747474;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 600;
+  letter-spacing: 1.32px;
+}
+
+.cart-item-price {
+  color: #747474;
+  font-size: 17px;
+  font-family: Poppins;
+  font-weight: 700;
+  letter-spacing: 1.87px;
+}
+
+.cart-item-price-icon {
+  width: 15px;
+  color: #747474;
+}
+
+.cart-gift {
+  border-radius: 8px;
+  border: 2px solid #db9200;
+}
+
+.cart-gift div {
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-family: Poppins;
+  letter-spacing: 1.32px;
+}
+
+.cart-gift div .span {
+  font-weight: 500;
+}
+
+.cart-gift button {
+  padding: 10px 13px;
+  border-radius: 15px;
+  background: #db9200;
+  color: #fff;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 600;
+  letter-spacing: 1.54px;
+}
+
+.cart-shipping {
+  border-radius: 8px;
+  border: 2px solid #db9200;
+  color: #000;
+  /* text-align: center; */
+  font-size: 12px;
+  font-family: Poppins;
+  letter-spacing: 1.32px;
+}
+
+.cart-shipping span {
+  font-weight: 500;
+}
+
+.checkout {
+  padding: 20px 29px;
+  gap: 7px;
+  border-radius: 8px;
+  border: 2px solid #db9200;
+  width: 32%;
+  height: fit-content;
+}
+
+.checkout .one,
+.checkout .two {
+  border-bottom: 2px solid #db9200;
+}
+
+.checkout .total {
+  color: #000;
+  font-size: 20px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  letter-spacing: 2.2px;
+}
+
+.checkout .total-price {
+  color: #000;
+  font-size: 24px;
+  font-family: Playfair Display;
+  font-weight: 500;
+  letter-spacing: 2.64px;
+}
+
+.checkout .naira-checkout {
+  width: 20.938px;
+  height: 20.941px;
+  flex-shrink: 0;
+  color: black;
+}
+
+.checkout .vat {
+  color: #000;
+  font-size: 13px;
+  font-family: Poppins;
+  font-weight: 500;
+  letter-spacing: 1.43px;
+}
+
+.checkout .orders {
+  color: #000;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 600;
+  letter-spacing: 1.76px;
+}
+
+.checkout button {
+  border-radius: 15px;
+  background: #db9200;
+  padding: 10px 0;
+  width: 100%;
+  color: #fff;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 600;
+  letter-spacing: 1.54px;
+}
+
+.our-guarantees {
+  width: 65%;
+}
+
+.guarantees {
+  border-radius: 8px;
+  border: 2px solid #db9200;
+}
+
+.our-guarantees-heading {
+  color: #000;
+  font-size: 20px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  letter-spacing: 2.2px;
+}
+
+.guarantees .one,
+.guarantees .two {
+  border-right: 2px solid #db9200;
+}
+
+.guarantees div h6 {
+  color: #000;
+  font-size: 14px;
+  font-family: Playfair Display;
+  font-weight: 800;
+  letter-spacing: 1.54px;
+}
+
+.guarantees div p {
+  color: #000;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 500;
+  letter-spacing: 1.32px;
+}
+
+@media screen and (max-width: 768px) {
+  .our-guarantees {
+    width: 100%;
+  }
+
+  .cart {
+    width: 100%;
+  }
+
+  .checkout {
+    width: 100%;
+  }
+
+  .guarantees {
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .guarantees .one,
+  .guarantees .two,
+  .guarantees .three {
+    border: 1px solid #db9200;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .giftIcon {
+    width: 28.438px;
+  }
+
+  .truckIcon {
+    width: 25px;
+  }
+
+  .checkout .total,
+  .checkout .orders,
+  .checkout .total-price,
+  .cart-item-price {
+    font-size: 14px;
+  }
+
+  .checkout .naira-checkout,
+  .checkout .ordersIcon,
+  .cart-item-price-icon {
+    width: 12px;
+  }
+
+  .welcome-heading {
+    font-size: 32px;
+  }
+
+  .welcome-sub-heading {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,39 @@
+.footer {
+  background: rgba(87, 75, 51, 0.48);
+}
+
+.footer-content div {
+  width: 25%;
+}
+
+.footer-content div ul li {
+  color: #db9200;
+}
+
+.footer-content div ul li span {
+  color: white;
+}
+
+.copyright {
+  color: #0000005e;
+}
+
+.copyright span {
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-content {
+    border-bottom: 2px solid #db9200;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-content {
+    justify-content: center;
+  }
+
+  .socials {
+    gap: 2rem;
+  }
+}
