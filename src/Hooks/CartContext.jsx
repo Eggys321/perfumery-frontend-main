@@ -13,7 +13,7 @@ export const CartProvider = ({ children }) => {
   const token = localStorage.getItem('token')
   //console.log(token);
   async function getLoggedIn (){
-    const loggedInRes = await axios.get('http://localhost:7878/auth/loggedIn', {
+    const loggedInRes = await axios.get('https://perfumery-backend-api-auth.onrender.com/auth/loggedIn', {
       headers: {
         'Authorization': token
       }

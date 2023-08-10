@@ -51,7 +51,7 @@ const SignUp = () => {
 
     // }
 
-   const {data} =  await axios.post('http://localhost:7878/auth/register',regData)
+   const {data} =  await axios.post('https://perfumery-backend-api-auth.onrender.com/auth/register',regData)
   //  navigate('/signIn')
   //  console.log(res);
   console.log(data);

@@ -32,7 +32,7 @@ const Order = () => {
       }
     // console.log(1234);
   try {
-   let {data} = await axios.post('http://localhost:7878/order/create',orderData, {
+   let {data} = await axios.post('https://perfumery-backend-api-auth.onrender.com/order/create',orderData, {
     headers:{
       'Authorization': getToken()
     }

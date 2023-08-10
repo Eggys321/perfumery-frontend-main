@@ -30,7 +30,7 @@ const SignIn = () => {
 
     // }
     try {
-      const {data} =  await axios.post('http://localhost:7878/auth/login',logData)
+      const {data} =  await axios.post('https://perfumery-backend-api-auth.onrender.com/auth/login',logData)
     console.log(data);
         // navigate('/')
         // localStorage.setItem({'token' : })
